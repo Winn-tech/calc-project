@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-size: large;
+}
+main{
+    width: 30%;
+    padding: 3px;
+    padding-top: 0%;
+    display: grid;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    grid-gap: 5px;
+    grid-template-rows: 50px 100px 65px  65px  65px  65px 65px ;
+    grid-template-areas:
+    'z z z z'
+    'a a a a'
+    'b c d e'
+    'f g h i'
+    'j k l m'
+    'n o p q'
+    'r r r r'
+    ;
+}
+
+.sec-1{
+    grid-area: a;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.sec{
+    cursor: pointer;
+    background-color: rgba(25, 24, 24, 0.566);
+    color: white;
+    padding-top: 30%;
+}
+.sec:hover, .sec-b:hover{
+    background-color: rgba(17, 12, 12, 0.566);
+
+}
+.sec-b{
+    cursor: pointer;
+    background-color: rgba(63, 62, 62, 0.566);
+    color: white;
+    padding-top: 25%;
+}
+.sec-z{
+    grid-area: z;
+    background-color: rgba(7, 10, 10, 0.911);
+    color: white;
+    text-align: center;
+    margin: 0%;
+    padding-top: 10px;
+    font-size: x-large;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.sec-2{
+    grid-area: b;
+}
+
+.sec-3{
+    grid-area: c;
+}
+.sec-4{
+    grid-area: d;
+}
+
+.sec-5{
+    grid-area: e;
+}
+.sec-6{
+    grid-area: f;
+}
+.sec-7{
+    grid-area: g;
+}
+.sec-8{
+    grid-area: h;
+}
+.sec-9{
+    grid-area: i;
+}
+.sec-10{
+    grid-area: j;
+}
+.sec-11{
+    grid-area: k;
+}
+.sec-12{
+    grid-area: l;
+}
+.sec-13{
+    grid-area: m;  
+}
+
+.sec-14{
+    grid-area: n;
+}
+.sec-15{
+    grid-area: o;
+}
+.sec-16{
+    grid-area: p;
+}
+.sec-17{
+    grid-area: q;
+}
+.sec-18{
+    grid-area: r;
+    padding-top: 8%;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
